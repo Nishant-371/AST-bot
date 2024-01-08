@@ -9,7 +9,7 @@ const Subscription = require("./models/subscription");
 db();
 app.use(express.json());
 
-const TOKEN = "6442747089:AAG1JeOYb6RrTdO4mpFbjd_QQf1DYYWuPLw";
+const TOKEN = ;
 const bot = new telegramBot(TOKEN, { polling: true });
 
 async function forecastHandler(chat_id) {
